@@ -1,0 +1,27 @@
+
+footer{
+    background-color: black;
+    background-color: #1d1b1c;
+    color: aliceblue;
+    width: 100%;
+    padding: 15px;
+    justify-content: space-around; 
+    font-size: small;
+    .boxFooter{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        div{
+            margin:25px;
+            i{
+                margin: 5px;
+                cursor: pointer;
+            }
+            p{
+                font-weight: 500;
+                font-size: large;
+            }
+        }        
+    }
+}
+    
