@@ -1,3 +1,4 @@
+/* mixin */
 /* maps */
 .icon__fb {
   color: rgb(71, 71, 187);
@@ -216,13 +217,12 @@ header nav {
 }
 
 footer {
-  background-color: black;
   background-color: #1d1b1c;
   color: aliceblue;
   width: 100%;
   padding: 15px;
   justify-content: space-around;
-  font-size: small;
+  font-size: medium;
 }
 footer .boxFooter {
   display: flex;
@@ -337,7 +337,7 @@ footer .boxFooter div p {
 }
 .info .infoSN, .info .infoMA, .info .infoPF, .info .infoRS {
   font-size: large;
-  background-color: rgba(255, 255, 255, 0.685);
+  background-color: rgba(255, 255, 255, 0.767);
   text-align: center;
   border-radius: 5px;
 }
@@ -356,7 +356,7 @@ footer .boxFooter div p {
 
 .preguntas {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.685);
+  background-color: rgba(255, 255, 255, 0.767);
 }
 .preguntas h2 {
   font-weight: 700;
@@ -384,7 +384,7 @@ footer .boxFooter div p {
   margin: 30px auto;
 }
 .medidas .tablas {
-  background-color: rgba(255, 255, 255, 0.685);
+  background-color: rgba(255, 255, 255, 0.767);
   padding: 50px;
 }
 .medidas .tablas td {
@@ -466,7 +466,7 @@ footer .boxFooter div p {
     margin: 15px;
   }
   .medidas {
-    padding: 20px 10px;
+    padding: 30px 0px;
   }
   .medidas .tablas tr {
     display: inline-block;
@@ -491,9 +491,6 @@ footer .boxFooter div p {
   }
   footer div {
     margin: 20px;
-  }
-  footer div p {
-    font-size: medium;
   }
   footer div i {
     margin-left: 5px;
@@ -523,14 +520,14 @@ footer .boxFooter div p {
     top: 100px;
     opacity: 0;
     visibility: hidden;
-    background-color: rgba(255, 255, 255, 0.863);
-    transition: all 1s;
+    background-color: rgba(255, 255, 255, 0.925);
+    transition: all 0.5s;
   }
   header .menu li {
     display: block;
     line-height: 15px;
     margin: 10px 0px;
-    transition: all 1s;
+    transition: all 0.5s;
   }
   header .menu .submenu {
     display: none;

@@ -1,8 +1,8 @@
 $colorPrincipal:#b8dac2;
-$bgPages: rgba(255, 255, 255, 0.685);
+$bgPages: rgba(255, 255, 255, 0.767);
 $bgPages2:#3a665a;
 
-
+/* mixin */
 @mixin txtTransform {
     transition: 0.5s;
     color: black;
