@@ -487,6 +487,9 @@ footer .boxFooter div p {
   .about .aboutUs {
     padding: 20px;
   }
+  .fondoProductos {
+    padding: 0;
+  }
   footer {
     padding: 10px;
   }
