@@ -92,7 +92,7 @@ img {
 }
 
 .verMas {
-  color: #FF0571;
+  color: rgb(255, 0, 51);
   width: 100%;
 }
 
@@ -461,10 +461,10 @@ footer .boxFooter div p {
   .container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    gap: 5px;
+    gap: 10px;
   }
   .container .item {
-    margin: 15px;
+    margin: 40px 15px;
   }
   .medidas {
     padding: 30px 0px;
